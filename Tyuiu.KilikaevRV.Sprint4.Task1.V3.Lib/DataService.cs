@@ -1,6 +1,8 @@
-﻿namespace Tyuiu.KilkaevRV.Sprint4.Task1.V3.Lib
+﻿using tyuiu.cources.programming.interfaces.Sprint4;
+
+namespace Tyuiu.KilkaevRV.Sprint4.Task1.V3.Lib
 {
-    public class DataService
+    public class DataService : ISprint4Task1V3
     {
         public int Calculate(int[] array)
         {
